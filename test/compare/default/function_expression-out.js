@@ -37,4 +37,9 @@ call(function(a) {
     b();
 });
 
+var obj = {
+    then : function(/* fnDone, fnFail, fnProgress */) {
+        var fns = arguments;
+    }
+};
 
